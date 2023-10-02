@@ -5,7 +5,7 @@ function getApi() {
   // fetch request gets a list of all the repos for the node.js organization
   var cors = "https://cors-anywhere.herokuapp.com/"
   var requestUrl = 
-  // cors + 
+  cors + 
   'https://captaincoaster.com/api/coasters?page=1';
 
   fetch(requestUrl, {
